@@ -10759,5 +10759,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.card > p {
+  max-width: 350px;
+}
 
 /*# sourceMappingURL=index.css.map */
