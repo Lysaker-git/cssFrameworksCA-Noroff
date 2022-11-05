@@ -1,17 +1,33 @@
 {
   "name": "social-platform-application",
-  "version":"1.0.0",
-  "author":"Robin Lysaker <lysakerwcs@hotmail.com>",
+  "version": "1.0.0",
+  "author": "Robin Lysaker <lysakerwcs@hotmail.com>",
   "scripts": {
-      "build": "sass styles/scss:styles/css",
-      "watch": "sass --watch styles/scss:styles/css & live-server"
+    "build": "sass styles/scss:styles/css",
+    "watch": "sass --watch styles/scss:styles/css & live-server"
   },
-  "keywords": ["css", "bootstrap", "sass", "html", "school"],
+  "keywords": [
+    "css",
+    "bootstrap",
+    "sass",
+    "html",
+    "school"
+  ],
   "dependencies": {
     "bootstrap": "^5.2.0"
   },
   "devDependencies": {
     "sass": "^1.55.0"
-  }
+  },
+  "description": "CSS Frameworks with noroff - to showcase use of bootstrap and SASS / SCSS in a project",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lysaker-git/cssFrameworksCA-Noroff.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lysaker-git/cssFrameworksCA-Noroff/issues"
+  },
+  "homepage": "https://github.com/Lysaker-git/cssFrameworksCA-Noroff#readme"
 }
-
