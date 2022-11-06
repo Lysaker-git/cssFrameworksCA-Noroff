@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockster | Login!</title>
+    <link rel="stylesheet" href="styles/css/index.css">
+
+</head>
+<body class="bg-gradient bg-dark">
+    <header class="bg-light position-fixed w-100 shadow-sm">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="home.html">Blockster</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link "  href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link active" aria-current="page">Log in / Sign Up</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </div>
+    </header>
+    <main class="container vh-100 align-items-center d-flex w-100 justify-content-center">
+      <section class="row">
+          <div class="col-12 text-center">
+            <h1>Welcome to Blockster!</h1>
+            <p class="">Your social-block..</p>
+          </div>
+          
+          <form action="/profile.html#validation" method="GET" class="shadow-sm card mt-5 d-grid col-6 mx-auto h-100 p-4 signInForm">
+            <div class="mb-3">
+              <label for="InputEmail1" class="form-label">Email address</label>
+              <input required type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="InputPassword1" class="form-label">Password</label>
+              <input required type="password" class="form-control" id="InputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </section>
+    </main>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
