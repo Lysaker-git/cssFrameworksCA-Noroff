@@ -17,7 +17,8 @@
     "bootstrap": "^5.2.0"
   },
   "devDependencies": {
-    "sass": "^1.55.0"
+    "live-server": "^1.1.0",
+    "sass": "^1.56.0"
   },
   "description": "CSS Frameworks with noroff - to showcase use of bootstrap and SASS / SCSS in a project",
   "main": "index.js",
