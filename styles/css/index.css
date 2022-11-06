@@ -10759,8 +10759,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.card > p {
-  max-width: 350px;
+.profileImageSmall {
+  max-width: 50%;
+  padding: 1rem;
 }
 
 footer {
